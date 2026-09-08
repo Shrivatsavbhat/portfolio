@@ -1,0 +1,43 @@
+SHRIVATSA V BHAT
+Software Developer
+shrivatsavbhat0@gmail.com | +91 8310903547 | Mangaluru, Karnataka, India
+
+SUMMARY
+Ambitious software development engineer with strong backend development skills, experienced in building scalable and secure applications using Node.js, Express.js, and MongoDB. Skilled in RESTful APIs, authentication systems, and practical machine learning.
+
+EXPERIENCE
+Project Intern, 99Games Online Private Limited, Udupi | June 2025 - July 2025
+- Developed a backend system for an equipment rental platform using Node.js and Express.js.
+- Designed RESTful APIs for booking and availability management.
+- Integrated JWT-based authentication and managed MongoDB data storage.
+
+PROJECTS
+MediSync - Healthcare Record Management System
+- Built a MERN platform for secure, centralized medical record management.
+- Implemented role-based access control, RESTful APIs, MongoDB GridFS, and encrypted authentication.
+
+Equipment Rental API - Backend System
+- Developed a Node.js and Express.js REST API for rental workflows, listings, bookings, and availability tracking.
+- Implemented JWT authentication and role-based authorization.
+
+AgriMitra - Smart Farming Assistant
+- Developed an XGBoost-based assistant for crop and fertilizer recommendations.
+- Improved predictions through data preprocessing and hyperparameter optimization.
+
+EDUCATION
+Bachelor of Computer Applications (BCA), Dr. NSAM FGC, Nitte | July 2023 - April 2026 | CGPA: 9.68
+Pre-University, Jain PU College, Moodabidri | June 2021 - March 2023 | Percentage: 96.5%
+
+SKILLS
+Languages: C, Java, Python, JavaScript
+Backend: Node.js, Express.js, REST APIs, JWT Authentication
+Frontend: HTML, CSS, JavaScript, React.js
+Database: MongoDB, MySQL
+Tools: Git, GitHub, Postman, VS Code
+Concepts: OOP, Data Structures & Algorithms (Basics), DBMS
+ML: XGBoost, Data Preprocessing
+
+CO-CURRICULAR ACTIVITIES
+- Student Council Secretary - Led college-wide events and coordinated student activities.
+- Best Leadership Award - Recognized for leadership and organizational contributions.
+- Media Club Member - Contributed to content creation, photography, and event coverage.
