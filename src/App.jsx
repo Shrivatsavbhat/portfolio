@@ -61,9 +61,19 @@ function App() {
   async function handleSubmit(event) {
     event.preventDefault()
     const form = event.currentTarget
+    const formData = new FormData(form)
     const endpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT
+    const name = (formData.get('name') ?? '').toString().trim()
+    const email = (formData.get('email') ?? '').toString().trim()
+    const message = (formData.get('message') ?? '').toString().trim()
 
     if (!endpoint) {
+      const subject = encodeURIComponent(`Portfolio inquiry from ${name || 'New contact'}`)
+      const body = encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\n\n${message}`
+      )
+
+      window.location.href = `mailto:shrivatsavbhat0@gmail.com?subject=${subject}&body=${body}`
       setFormStatus('success')
       form.reset()
       return
@@ -73,7 +83,7 @@ function App() {
     try {
       const response = await fetch(endpoint, {
         method: 'POST',
-        body: new FormData(form),
+        body: formData,
         headers: { Accept: 'application/json' },
       })
       if (!response.ok) throw new Error('Unable to send')
